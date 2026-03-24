@@ -1,6 +1,8 @@
+import "../styles/navbar.css";
+
 function Navbar() {
   return (
-    <nav>
+    <nav className="barra_navegacao">
       <h2>Meu app React</h2>
 
       <ul>
