@@ -1,6 +1,9 @@
 // ! Um componente não é declarado no main.jsx
 // ! Componentes são apenas importados por páginas
 
+// 9
+import { Link } from "react-router-dom"
+
 import "../styles/Navbar.css"
 import { useState, useEffect } from "react";
 import { FaHotel } from "react-icons/fa";
@@ -34,6 +37,10 @@ export default function Navbar() {
                     <li onClick={() => scrollToSection("sobre")}>Sobre</li>
                     <li onClick={() => scrollToSection("cards")}>Quartos</li>
                     <li onClick={() => scrollToSection("suporte")}>Suporte</li>
+                    {/* 8 */}
+                    <li>
+                        <Link to="/reserve" />Reserve<Link />
+                    </li>
                 </ul>
             </nav>
         </>
