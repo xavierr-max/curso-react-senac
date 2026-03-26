@@ -2,7 +2,7 @@ import "../styles/Footer.css"
 
 export default function Footer() {
     return (
-        <section id="suporte">
+        <section id="suporte" >
             <h2>
                 Suporte
             </h2>

@@ -7,12 +7,15 @@ function App() {
     return (
         <>
             <Navbar />
+
             <Hero />
-            <Cards />
-            <section id="sobre">
+
+            <section id="sobre" style={{ padding: "60px", textAlign: "center" }}>
                 <h2>Sobre</h2>
                 <p>Somos referência em hotelaria de luxo.</p>
             </section>
+
+            <Cards />
 
             <Footer />
         </>
