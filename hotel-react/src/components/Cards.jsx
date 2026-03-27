@@ -5,7 +5,11 @@ export default function Cards() {
     return (
         <section id="cards" className="cards">
             <h2>Quartos</h2>
+
             <div className="card-container">
+
+                {/* // ! quando a className tem o espaço, o css terá . (ponto) */}
+                {/* // ! quando o elemento estiver dentro de outro, o css será com espaço. */}
                 <div className="card card1">
                     <div className="overlay">
                         <FaWifi className="icon" />
@@ -13,6 +17,7 @@ export default function Cards() {
                         <p>Internet de alta velocidade</p>
                     </div>
                 </div>
+
                 <div className="card card2">
                     <div className="overlay">
                         <FaSwimmingPool className="icon" />
@@ -20,6 +25,7 @@ export default function Cards() {
                         <p>Área de lazer completa</p>
                     </div>
                 </div>
+
                 <div className="card card3">
                     <div className="overlay">
                         <FaCoffee className="icon" />

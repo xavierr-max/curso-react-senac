@@ -1,0 +1,79 @@
+.cards {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.cards h2 {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 240px;
+    height: 240px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card1 {
+    background-image: url("https://images.unsplash.com/photo-1508780709619-79562169bc64");
+}
+
+
+.card2 {
+    background-image: url("https://us.123rf.com/450wm/olegdudko/olegdudko1511/olegdudko151131818/48734168-piscina.jpg?ver=6");
+}
+
+
+.card3 {
+    background-image: url("https://images.unsplash.com/photo-1504754524776-8f4f37790ca0");
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    transition: background 0.3s ease;
+}
+
+.card:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 14px;
+    opacity: 0.9;
+}
